@@ -1,0 +1,4 @@
+aws_region                = "us-east-1"
+project_name              = "idempotent-inbox-triage"
+inbound_recipient_domain  = "inbound.example.com"
+github_repository         = "example-org/idempotent-inbox-triage"

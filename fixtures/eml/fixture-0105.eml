@@ -1,0 +1,27 @@
+From: Avery Quill <avery.quill@example.com>
+To: triage@northwind.example.com
+Message-ID: <fixture-0105@example.com>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+Subject: Invoice question
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="fixture-boundary-0105"
+
+--fixture-boundary-0105
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Northwind Widgets team,
+
+The invoice charge needs a billing review.
+
+Reference 5723.
+
+--fixture-boundary-0105
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="widget-0105.pdf"
+MIME-Version: 1.0
+
+c3ludGhldGljLXBkZg==
+
+--fixture-boundary-0105--

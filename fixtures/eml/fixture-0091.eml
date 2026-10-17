@@ -1,0 +1,28 @@
+From: Morgan Vale <morgan.vale@example.org>
+To: triage@northwind.example.com
+Message-ID: <fixture-0091@example.org>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+X-Security-Review: required
+Subject: Security access review
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="fixture-boundary-0091"
+
+--fixture-boundary-0091
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Northwind Widgets team,
+
+Our partner needs an integration update.
+
+Reference 7931.
+
+--fixture-boundary-0091
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="widget-0091.pdf"
+MIME-Version: 1.0
+
+c3ludGhldGljLXBkZg==
+
+--fixture-boundary-0091--

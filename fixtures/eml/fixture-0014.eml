@@ -1,0 +1,27 @@
+From: Jordan Wren <jordan.wren@example.net>
+To: triage@northwind.example.com
+Message-ID: <fixture-0014@example.net>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+Subject: Northwind news update
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="fixture-boundary-0014"
+
+--fixture-boundary-0014
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Northwind Widgets team,
+
+Here is the latest news update.
+
+Reference 9420.
+
+--fixture-boundary-0014
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="widget-0014.pdf"
+MIME-Version: 1.0
+
+c3ludGhldGljLXBkZg==
+
+--fixture-boundary-0014--

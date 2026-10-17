@@ -1,0 +1,15 @@
+From: Jordan Wren <jordan.wren@example.com>
+To: triage@northwind.example.com
+Message-ID: <fixture-0039@example.com>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+X-Security-Review: required
+Subject: Security access review
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Hello Northwind Widgets team,
+
+The receipt includes an invoice charge.
+
+Reference 8060.
