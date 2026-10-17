@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.venv/
+.env
+.triage.sqlite*
+.terraform/
+.terraform.lock.hcl
+infra/.terraform-build/
+*.tfstate
+*.tfstate.*
+crash.log
+.DS_Store

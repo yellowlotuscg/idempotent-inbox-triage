@@ -1,0 +1,27 @@
+From: Casey Finch <casey.finch@example.org>
+To: triage@northwind.example.com
+Message-ID: <fixture-0133@example.org>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+Subject: Please cancel
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="fixture-boundary-0133"
+
+--fixture-boundary-0133
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Northwind Widgets team,
+
+Please cancel this request and unsubscribe us.
+
+Reference 2097.
+
+--fixture-boundary-0133
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="widget-0133.pdf"
+MIME-Version: 1.0
+
+c3ludGhldGljLXBkZg==
+
+--fixture-boundary-0133--

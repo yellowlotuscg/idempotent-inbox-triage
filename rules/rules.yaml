@@ -1,0 +1,73 @@
+version: "2026-01"
+rules:
+  - id: order-intake
+    match:
+      domain: example.com
+      subject_regex: "(?i)\\b(order|purchase)\\b"
+    actions:
+      label: orders
+      notify: orders@example.com
+  - id: billing-review
+    match:
+      subject_regex: "(?i)\\b(invoice|billing|receipt)\\b"
+      body_keywords: [invoice, charge]
+    actions:
+      label: billing
+      forward: billing@example.org
+  - id: urgent-priority
+    match:
+      headers:
+        x-priority: "1"
+    actions:
+      label: urgent
+      notify: urgent@example.net
+  - id: pdf-attachment
+    match:
+      attachments:
+        extensions: [pdf]
+    actions:
+      label: attachment-review
+      archive: true
+  - id: partner-intake
+    match:
+      domain: example.net
+      subject_regex: "(?i)\\b(partner|integration)\\b"
+    actions:
+      label: partners
+      forward: partners@example.com
+  - id: cancellation-request
+    match:
+      body_keywords: [unsubscribe, cancel]
+    actions:
+      label: cancellations
+      notify: retention@example.org
+  - id: widget-support
+    match:
+      body_keywords: [widget, help]
+    actions:
+      label: support
+      forward: support@example.com
+  - id: security-review
+    match:
+      headers:
+        x-security-review: required
+      subject_regex: "(?i)\\b(access|security)\\b"
+    actions:
+      label: security
+      notify: security@example.net
+  - id: monthly-newsletter
+    match:
+      headers:
+        list-id: northwind-news.example.org
+      subject_regex: "(?i)\\b(news|update)\\b"
+    actions:
+      label: newsletter
+      archive: true
+  - id: product-feedback
+    match:
+      from: jordan.wren@example.org
+      domain: example.org
+      body_keywords: [feedback]
+    actions:
+      label: feedback
+      notify: product@example.com

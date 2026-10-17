@@ -1,0 +1,15 @@
+From: Avery Quill <avery.quill@example.org>
+To: triage@northwind.example.com
+Message-ID: <fixture-0130@example.org>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+X-Security-Review: required
+Subject: Security access review
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+Hello Northwind Widgets team,
+
+Please review access security for this widget.
+
+Reference 4619.

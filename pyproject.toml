@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "idempotent-inbox-triage"
+version = "0.1.0"
+description = "An explainable, idempotent inbound email triage MVP"
+requires-python = ">=3.12"
+dependencies = ["PyYAML>=6.0,<7"]
+
+[project.optional-dependencies]
+test = ["pytest>=8.0,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

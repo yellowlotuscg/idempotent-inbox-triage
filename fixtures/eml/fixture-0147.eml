@@ -1,0 +1,27 @@
+From: Riley North <riley.north@example.com>
+To: triage@northwind.example.com
+Message-ID: <fixture-0147@example.com>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+Subject: Partner integration
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="fixture-boundary-0147"
+
+--fixture-boundary-0147
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Northwind Widgets team,
+
+Our partner needs an integration update.
+
+Reference 9712.
+
+--fixture-boundary-0147
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="widget-0147.pdf"
+MIME-Version: 1.0
+
+c3ludGhldGljLXBkZg==
+
+--fixture-boundary-0147--

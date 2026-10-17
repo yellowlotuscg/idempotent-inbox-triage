@@ -1,0 +1,30 @@
+From: Avery Quill <avery.quill@example.com>
+To: triage@northwind.example.com
+Message-ID: <fixture-0000@example.com>
+Date: Thu, 01 Jan 2026 00:00:00 +0000
+X-Priority: 1
+X-Security-Review: required
+Subject: Security access review
+List-ID: northwind-news.example.org
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="fixture-boundary-0000"
+
+--fixture-boundary-0000
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+Hello Northwind Widgets team,
+
+Please help with our widget order.
+
+Reference 1732.
+
+--fixture-boundary-0000
+Content-Type: application/pdf
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="widget-0000.pdf"
+MIME-Version: 1.0
+
+c3ludGhldGljLXBkZg==
+
+--fixture-boundary-0000--
